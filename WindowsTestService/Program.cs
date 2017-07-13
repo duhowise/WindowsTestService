@@ -10,6 +10,7 @@ namespace WindowsTestService
 	{
 		static void Main(string[] args)
 		{
+			ConfigureService.Configure();
 		}
 	}
 }

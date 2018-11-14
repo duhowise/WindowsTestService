@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace WindowsTestService
+namespace WindowsTestService.Services
 {
 	public class UserHostService
 	{
@@ -11,7 +11,7 @@ namespace WindowsTestService
 
 		public void Stop()
 		{
-			
+		    Console.WriteLine("Stopping service");
 		}
 
 
